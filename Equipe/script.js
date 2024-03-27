@@ -60,9 +60,9 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     resultElement.innerHTML = `Você acertou ${score} de 10 perguntas.`;
   });
 
-  function exibirImagemAmpliada(alt) {
+  function exibirImagemAmpliada(src) {
     // Define o src da imagem ampliada com o src da imagem normal
-    document.getElementById("imagemAmpliadaSrc").src = alt;
+    document.getElementById("imagemAmpliadaSrc").src = src;
     // Exibe a imagem ampliada
     document.getElementById("imagemAmpliada").style.display = "block";
 }
